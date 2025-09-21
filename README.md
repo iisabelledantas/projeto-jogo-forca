@@ -15,16 +15,6 @@ projeto/
 ├── kernel.bin            
 └── README.md    
 
-### Desenho da Forca
-```
-Erros:     0      1      2      3      4      5      6
-         +---+  +---+  +---+  +---+  +---+  +---+  +---+
-         |   |  |   |  |   |  |   |  |   |  |   |  |   |
-         |      |   O  |   O  |   O  |   O  |   O  |   O
-         |      |      |   |  |  /|  |  /|\ |  /|\ |  /|\
-         |      |      |      |      |      |  /   |  / \
-```
-
 ## Como Compilar e Executar
 
 ### Pré-requisitos
@@ -60,11 +50,11 @@ make run
 qemu-system-i386 -fda image.bin -boot a
 ```
 
-## 🎯 Como Jogar
+## Como Jogar
 
 ### Controles
 
-- **ENTER**: Avançar para próxima palavra - Dessa forma, escolhendo uma.
+- **ENTER**: Avançar para próxima palavra - Dessa forma, escolhendo uma palavra.
 - **A-Z**: Tentar uma letra
 
 ### Palavras do Jogo
