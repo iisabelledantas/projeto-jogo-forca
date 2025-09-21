@@ -13,7 +13,9 @@ projeto/
 ├── boot.bin
 ├── image.bin
 ├── kernel.bin            
-└── README.md    
+└── README.md
+
+```
 
 ## Como Compilar e Executar
 
